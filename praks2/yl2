@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Muljed, saavutused tunnis
+#
+echo "Ehar Siimberg" # väljastab ees ja perenimi
+echo "IS19" # õppegrupp
+echo -n "Kuidas tundub antud aine:" #väljastab Kuidas tundub antud aine: reavahetuseta
+echo "Antud aine tundub huvitav" # väljastab arvamuse
+echo "Pragune mulje tunnist on hea ning praeguste ülesannetega sai hakkama"
+#
+# skripti lõpp
+ 
