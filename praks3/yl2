@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# var kataloogi *.log finder
+#
+find /var -iname *.log 2>/dev/null -exec wc -l {} \; | sort -n -r
+#otsib /var kataloogist kõik .log failid ja sorteerib ridade arvu järgi kasvavas järjekorras
+#
+#skripti lõpp
+#
