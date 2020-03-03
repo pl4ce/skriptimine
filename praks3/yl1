@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Kuupäeva ja ajaga seotud skript
+#
+paev=`date +"%A"`
+kuu=`date +"%B"`
+pnumber=`date +"%d"`
+aasta=`date +"%Y"`
+kellaaeg=`date +"%R"`
+echo ""							# tühi rida
+echo "Today is" $paev, $kuu $pnumber, $aasta		# Väljastab päeva, kuupäeva ja aasta
+echo ""		# tühi rida
+echo "Time is" $kellaaeg				# Väljastab kellaaja
+echo ""							# tühi rida
+#
+echo -n "Calender of"					# Väljastab teksti Calender of [kuunimi]
+cal							# Väljastab kalendri
+#
+# Skripti lõpp
