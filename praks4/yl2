@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#
+#
+aasta="2016"						#aasta muutuja kuna president valiti
+president="Kersti Kaljulaid"				#presidendi muutuja meie praeguse presidendiga
+lause_keskosa=". aastal valiti Eesti presidendiks "	#lause keskosa muutuja
+lause=$aasta$lause_keskosa$president			#moodustab lause eelnevastest muutujatest
+#
+#
+echo $lause
+#
+#SKRIPTI LÕPP
+#
