@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#Nimeline tervitus skript
+#
+echo -n "Sisesta oma ees- ja perenimi: "	# ütleb kasutajale, et sisestada oma nimi
+read eesnimi perenimi				# loeb kasutaja sisestatud nime
+echo "Tere $eesnimi $perenimi, ilusat päeva!"	# väljastab tervitus sõnumi kasutaja sisestatud
+#						 nimega
+#
+# skripti lõpp
+#
