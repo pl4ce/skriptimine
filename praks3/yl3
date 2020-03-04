@@ -4,7 +4,9 @@
 #
 x=`uptime -p`				# näitab masina uptimei
 kellaaeg=`date +"%T"`			# näitab praegust kellaaega
-echo "skriptimine at" $kellaaeg $x	# väljastab praegusel kellaajal kaua masin on töödanud
+echo -n `hostname`			# väljastab hostnamei
+echo -n " at " $kellaaeg $x		# väljastab praegusel kellaajal kaua masin on töödanud
+echo
 #
 #lõpp
 #
